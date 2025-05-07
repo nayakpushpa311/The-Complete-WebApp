@@ -1,0 +1,17 @@
+1. GET (Get People) ; SELECT * FROM people;
+
+2. POST (Create Person) : INSERT INTO PEOPLE id,name,age,Gender) VALUES (10,'Alex',21,'M');
+
+Confirm: SELECT * FROM people;
+
+3. GET (Read Person) : SELECT * FROM people WHERE id = 1;
+
+4. PUT (Update Person) : UPDATE people SET name = 'John' , age=23, Gender = 'M' WHERE id = 9;
+
+5. DELETE (Delete Person) : DELETE FROM people WHERE id = 9;
+
+
+
+* SELECT gender FROM people WHERE gender = 'M';
+* SELECT name FROM people;
+* SELECT name, age FROM people;
